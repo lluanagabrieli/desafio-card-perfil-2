@@ -8,6 +8,7 @@
 
 .border-mensagem {
     border: 2px solid;
+    border-radius: 8px !important;
     border-width: 3px;
     border-image: linear-gradient(45deg, rgb(245, 99, 167), rgb(105, 133, 224)) 1;
 }
@@ -19,7 +20,7 @@
     }
 }
 
-/***************************************/
+/***************** ANIMAÇÃO - DESTAQUES **********************/
 .destaques-imagens{
     max-width: 100px; 
     max-height: 90px;
@@ -27,7 +28,7 @@
 }
 .destaques-imagens:hover,
 .destaques-imagens:focus {
-    transform: translateY(15px) scale(1.2);
+    transform: rotate(360deg) scale(1.2);
 }
 
 @media all and (min-width: 2560px){
@@ -123,7 +124,7 @@
     color: white;
 }
 
-/**********************************************/
+/*************** IMAGEM DE PERFIL *******************************/
 .imagem-tamanhos {
     max-width: 110px; 
     max-height: 100px;
